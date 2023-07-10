@@ -2,74 +2,77 @@
 </script>
 
 <template>
-  <header class="px-16 pt-12">
+  <header class="px-4 pt-2 desktop:px-16 desktop:pt-12">
     <div class="flex justify-between">
-      <div class="uppercase font-bold text-lg">Workout</div>
-      <nav class="flex gap-5 uppercase">
-        <a href="#" class="transition-colors duration-300 hover:text-yellow-500">Workouts</a>
-        <a href="#" class="transition-colors duration-300 hover:text-yellow-500">Programs</a>
-        <a href="#" class="transition-colors duration-300 hover:text-yellow-500">Healthy Living</a>
-        <a href="#" class="transition-colors duration-300 hover:text-yellow-500">Community</a>
-        <a href="#" class="transition-colors duration-300 hover:text-yellow-500">About</a>
-        <a href="#" class="transition-colors duration-300 hover:text-yellow-500">Store</a>
+      <div class="uppercase font-bold text-[8px] desktop:text-base">workout</div>
+      <nav class="flex items-center text-[6px] desktop:text-xs gap-1.5 desktop:gap-5 uppercase">
+        <a href="#" class="transition-colors duration-300 hover:text-yellow-500">workouts</a>
+        <a href="#" class="transition-colors duration-300 hover:text-yellow-500">programs</a>
+        <a href="#" class="transition-colors duration-300 hover:text-yellow-500">healthy living</a>
+        <a href="#" class="transition-colors duration-300 hover:text-yellow-500">community</a>
+        <a href="#" class="transition-colors duration-300 hover:text-yellow-500">about</a>
+        <a href="#" class="transition-colors duration-300 hover:text-yellow-500">store</a>
       </nav>
     </div>
   </header>
 
 
   <section class="container mx-auto py-48 relative flex flex-col">
-    <div class="flex flex-col">
-      <span class="font-bold uppercase text-[172px] tracking-tight font-sfprodisplay">workout</span>
+    <div class="flex">
+      <div class="flex flex-col">
+        <span class="font-bold uppercase desktop:text-[172px] text-6xl tracking-tight font-sfprodisplay">workout</span>
+      
 
-      <span class="font-bold uppercase text-[172px] tracking-tight font-sfprodisplay">with me</span>
+        <span class="font-bold uppercase desktop:text-[172px] text-6xl tracking-tight font-sfprodisplay">with me</span>
 
-      <span class="bg-[#171717] texte-base opacity-60 not-italic tracking-wide">A huge
-        selection of
-        health and fitness content, healthy recipes and
-        <br>
-        transformation stories to help you get fit and stay fit!</span>
-    </div>
-    <div class="absolute top-[320px] right-[395px]">
-      <img src="mensport.png">
-    </div>
+        <span class="bg-[#171717] desktop:text-base text-xs opacity-60 not-italic tracking-wide mt-8">A huge
+          selection of
+          health and fitness content, healthy recipes and
+          <br>
+          transformation stories to help you get fit and stay fit!</span>
 
-
-    <div
-      class="bg-[#EF8964] py-3 px-5 absolute top-[285px] right-[330px] rounded-xl text-5xl font-bold not-italic flex flex-col gap-3">
-      <div class="flex items-center justify-center bg-[#EFA082] w-6 h-6 rounded-full">
-        <img src=runningstick.svg>
-      </div>
-      <div class="text-center">4,95 <span class="text-xs opacity-60"> km</span>
+        <div class="absolute top-[260px] right-[220px]">
+          <img src="mensport.png">
+        </div>
       </div>
 
-
+      
+      <div class="flex justify-center items-center z-10 ml-40 mb-40">
+      <div class="bg-[#EF8964] py-3 px-5 rounded-xl text-5xl font-bold not-italic flex flex-col gap-3">
+          <div class="flex items-center justify-center bg-[#EFA082] rounded-full">
+            <img src=runningstick.svg>
+          </div>
+          <div class="text-center">4,95 <span class="text-xs opacity-60"> km</span>
+          </div>
+        </div>
+      </div>
     </div>
 
 
-    <div class="bg-[#7A29DC] w-48 h-24 py-5 pl-5 absolute top-[760px] right-[255px] rounded-xl">
-      <span class="text-4xl tracking-wider font-semibold">500+</span>
-      <br>
-      <span class="text-[#EFEDE8A6] tracking-wider text-sm not-italic">Free Workout Videos </span>
+    <div class="flex justify-center z-10">
+      <div class="flex justify-center items-center bg-[#303030] py-4 pl-6 rounded-xl">
+        <span class=""><img src="play.svg"></span>
+        <div class="flex flex-col">
+          <span class="text-2xl tracking-wide pl-2 font-semibold ">350+</span>
+          <span class="pr-6 pl-2 text-[#EFEDE8A6] text-base tracking-wide ">Video tutorial</span>
+        </div>
+      </div>
     </div>
 
-
-
-
-    <div class="bg-[#303030] w-52 h-24 py-4 pl-6 absolute top-[690px] right-[720px] rounded-xl flex">
-      <span class="flex items-center"><img src="play.svg"></span>
-      <span class="flex-col">
-        <span class="text-2xl tracking-wide text-center font-semibold pl-3">350+</span>
-        <br>
-        <span class="pl-3 text-[#EFEDE8A6] text-base tracking-wide relative top-[0.5em]">Video tutorial</span>
-      </span>
-    </div>
-
-
-    <button class="bg-[#E6533C] w-48 h-16 items-center rounded-lg text-lg font-semibold tracking-wider font-poppins">
+    <button
+      class="bg-[#E6533C] w-1/6 h-14 items-center rounded-lg text-lg font-semibold tracking-wider font-poppins ">
       Join Club Now!
     </button>
 
-    <div class="text-[#EFEDE8A6] tracking-wider text-sm uppercase pt-24">as featured in</div>
+    <div class="flex justify-end z-10">
+      <div class="bg-[#7A29DC] py-5 px-5 flex flex-col rounded-xl">
+        <span class="pr-12 text-4xl tracking-wider font-semibold">500+</span>
+        <span class="text-[#EFEDE8A6] tracking-wider text-sm not-italic pr-2">Free Workout Videos </span>
+      </div>
+    </div>
+
+  <div class="flex flex-col">
+    <div class="text-[#EFEDE8A6] tracking-wider text-sm uppercase">as featured in</div>
     <div class="flex pt-12 space-x-6">
       <img src="nike.svg">
       <img src="buzzfeed.svg">
@@ -78,8 +81,8 @@
       <img src="dw.svg">
       <img src="huffpost.svg">
     </div>
+  </div>
   </section>
-
 
   <section class="container mx-auto">
     <div class="flex flex-col text-4xl mb-12">
@@ -230,7 +233,8 @@
         <li>FB Plus Routines</li>
         <li> Rest Day Complete</li>
       </span>
-      <button class="text-base font-semibold bg-[#0070C9] mt-8 rounded-lg font-poppins me-auto p-1.5">Join Club Now!</button>
+      <button class="text-base font-semibold bg-[#0070C9] mt-8 rounded-lg font-poppins me-auto p-1.5">Join Club
+        Now!</button>
 
     </div>
   </section>
@@ -245,7 +249,7 @@
       </div>
 
     </div>
-  </section>
+  </section> -->
 </template>
 
 
