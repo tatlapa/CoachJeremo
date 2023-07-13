@@ -34,7 +34,7 @@
         </span>
 
 
-        <span class="font-bold uppercase desktop:text-[172px] text-6xl tracking-tight font-sfprodisplay">with me</span>
+        <span class="font-bold uppercase desktop:text-[172px] desktop:text-start text-center text-6xl tracking-tight font-sfprodisplay">with me</span>
 
         <span class="bg-[#171717] desktop:text-base text-xs opacity-60 not-italic tracking-wide mt-8">A huge
           selection of
@@ -73,8 +73,8 @@
       </div>
 
       <div class="flex flex-col ">
-        <div class="text-[#EFEDE8A6] pt-10 tracking-wider text-sm uppercase">as featured in</div>
-        <div class="flex mt-12 space-x-1 desktop:space-x-4 w-full">
+        <div class="text-[#EFEDE8A6] tracking-wider text-sm uppercase mt-6 desktop:mt-0">as featured in</div>
+        <div class="flex space-x-1 desktop:space-x-4 w-full mt-4 desktop:mt-0">
           <img src="nike.svg" class="w-1/6 tablet:w-24 tablet:h-24">
           <img src="buzzfeed.svg" class="w-1/6 tablet:w-24 tablet:h-24">
           <img src="esprit.svg" class="w-1/6 tablet:w-24 tablet:h-24">
